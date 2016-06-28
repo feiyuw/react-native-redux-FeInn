@@ -1,5 +1,5 @@
-const React = require('react-native')
-const {
+import React, {Component} from 'react';
+import {
     Image,
     View,
     Text,
@@ -8,11 +8,10 @@ const {
     Dimensions,
     ActivityIndicatorIOS,
     PropTypes,
-    Component,
     ScrollView,
     TouchableHighlight
-} = React;
-import pull_arrow from '../assets/images/pull_arrow.png'
+} from 'react-native';
+import pull_arrow from '../assets/images/pull_arrow.png';
 /*list status change graph
 *
 *STATUS_NONE->[STATUS_REFRESH_IDLE, STATUS_INFINITE_IDLE, STATUS_INFINITE_LOADED_ALL]

@@ -3,11 +3,11 @@
  * https://github.com/facebook/react-native
  * @flow
  */
+import React from 'react';
+import {
+  AppRegistry,
+} from 'react-native';
 
- import React, {
-   AppRegistry,
- } from 'react-native';
+import App from './src/container/app';
 
- import FeInnApp from './src/container/app';
-
- AppRegistry.registerComponent('FeInn', () => FeInnApp);
+AppRegistry.registerComponent('FeInn', () => App);
